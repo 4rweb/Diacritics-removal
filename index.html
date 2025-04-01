@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Diacritics Removal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="textoInput" placeholder="Digite seu texto aqui / Type your text here">
+        <br>
+        <button onclick="converterTexto()">Convert</button>
+        <button onclick="copiarTexto()" id="botaoCopiar" style="display: none;">Copy</button>
+        <p>Result: <span id="resultado"></span></p>
+        <p id="mensagemCopia" style="color: green; font-size: 18px; display: none;">Text copied!</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
