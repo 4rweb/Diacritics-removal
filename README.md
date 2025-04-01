@@ -1,9 +1,5 @@
 # Diacritics Removal
 
----
-
-## English
-
 ### Description
 Diacritics Removal is a lightweight web tool designed to process text by removing diacritics (accents), special characters, and replacing spaces with hyphens. It's perfect for generating clean URLs, standardized filenames, or simplified text.
 
@@ -21,5 +17,25 @@ Diacritics Removal is a lightweight web tool designed to process text by removin
 
 ### Installation
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/4rweb/diacritics-removal.git
+
+```bash
+git clone https://github.com/4rweb/diacritics-removal.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd diacritics-removal
+```
+
+Open index.html in your browser, or use:
+
+```bash
+npm start
+```
+
+(Note: Requires Node.js installed)
+
+License
+This project is licensed under the MIT License (LICENSE).
+
